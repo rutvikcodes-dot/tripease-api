@@ -9,6 +9,7 @@ const config = {
     PASSWORD: process.env.DB_PASSWORD,
     HOST: process.env.DB_HOST,
     PORT: process.env.DB_PORT,
+    SSL: process.env.DB_SSL === 'true',
   },
 };
 
